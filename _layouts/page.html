@@ -1,9 +1,31 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="es-ES">
 
-<main>
-<small><i>main</i></small>
-<h1>{{ page.title }}</h1>
-{{ content }}
-</main>
+  {% include head.html %}
+
+  <body>
+  {% include facebook-sdk.html %}
+
+    {% include nav.html %}
+
+
+
+    <div class="main"><article class="post">
+
+      <!-- <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+      </header> -->
+
+      <div class="post-content">
+        <button type="button" name="button">Reservar</button>
+        {{ content }}
+      </div>
+
+    </article></div>
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

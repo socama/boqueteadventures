@@ -1,0 +1,30 @@
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+
+<meta property="og:type" content="{% if page.image %}article{% else %}website{% endif %}">
+
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+{% if page.image %}
+  <meta content="/{{ page.image }}" property="og:image">
+{% else %}
+  <meta content="http://www.estospanas.com/images/Facebook-Cover.png" property="og:image">
+  {% endif %}
+
+
+
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+
+<meta property="og:site_name" content="{{ site.title }}">
+
+<meta property="og:locale" content="es_ES">
+
+{% if page.date %}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  <meta property="article:author" content="{{ page.author.name }}">
+  {% for post in site.related_posts limit:3 %}
+    <meta property="og:see_also" content="{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  {% endfor %}
+{% endif %}
+
+<meta property="fb:admins" content="{{ site.fb_admins }}">
+<meta property="fb:app_id" content="1138698906223730">
