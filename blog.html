@@ -1,0 +1,65 @@
+---
+layout: page
+---
+
+<div class="container">
+  <div class="row">
+    <div class="home">
+
+
+      <h2 class="page-heading center">Entradas del blog</h2>
+
+      <ul class="post-list">
+        {% for post in site.posts %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <li class="grid-item col s12 m6">
+            <div class="card large hoverable">
+              <div class="card-image">
+                <img class="thumbnail responsive-img" src="{{post.image}}"/>
+
+
+              </div>
+              <div class="card-content">
+
+
+                  <span>{{ post.title }}</span><br>
+                    <div class="c-content">
+                      <span class="excerpt">{{ post.excerpt }}</span><br>
+
+                    <a class="card-link" href="{{ post.url | prepend: site.baseurl }}">Leer más...   </a></span>
+                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+                    </div>
+
+
+              </div>
+
+
+              <!-- <div class="card-action">
+
+                <h2>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                  <span><p>
+                    {{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Leer más...</a>
+                  </span>
+
+
+                  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p></span>
+              </div> -->
+
+            </div>
+          </li>
+          </a>
+        {% endfor %}
+      </ul>
+
+
+
+
+
+      <!-- <p class="rss-subscribe">Suscríbete <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+    </div>
+  </div>
+
+</div>
