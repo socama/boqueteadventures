@@ -1,33 +1,43 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Vivir en España - Estos Panas
-email: carlos@camconsulting.online
-description: Una mano amiga que te recibe para ayudarte en tu nueva vida en España
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.estospanas.com" # the base hostname & protocol for your site
-twitter_username: estospanasweb
-twitter:
-  site: estospanasweb
-  content: summary_large_image
+language:               ""
+title:                  "Site Title"
+description:            "Site description"
+google-verification:    ""
 
-exclude: [vendor, "Gemfile", "Gemfile.lock"]
+# Handling Reading
+include:
+  - ".htaccess"
+  - "_pages"
 
-facebook:
-  publisher: https://www.facebook.com/estospanas/
-google_site_verification:
+exclude:
+  - "/assets/"
+  - "bower.json"
+  - "composer.json"
+  - "composer.lock"
+  - "DOC.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "/gulp/"
+  - "gulpfile.js"
+  - "LICENSE.md"
+  - "Makefile"
+  - "node_modules"
+  - "npm-debug.log"
+  - "package.json"
+  - "README.md"
+  - "rev-manifest.json"
 
+# Plugins
+gems:             ["jekyll-sitemap", "jekyll-paginate"]
 
-# Build settings
-markdown: kramdown
+# Conversion
+incremental:      true
 
+# Serving
+# url:            ""
+# baseurl:        "" # does not include hostname
 
-
-fb_admins:          https://www.facebook.com/estospanas
-fb_appid:           1138698906223730
-avatar:             /images/avatarCA.png
+# Outputting
+permalink:        "/blog/:year/:title/"
+paginate_path:    "/blog/page:num"
+paginate:         5
