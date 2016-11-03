@@ -1,13 +1,10 @@
-source 'http://rubygems.org'
+source "https://rubygems.org"
 
-gem "jekyll"
-gem "html-proofer"
+# Ruby Requirement
+# ruby '2.2.3'
 
-
-group :jekyll_plugins do
-  gem 'jekyll-sitemap'
-  gem 'jekyll-seo-tag'
-
-  gem 'jekyll-admin'
-  gem 'github-pages'
-end
+# Gem Requirements
+gem 'sass',  '>=3.4.3'
+gem 'jekyll', '>=3.0'
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
