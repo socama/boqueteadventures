@@ -36,8 +36,8 @@ gems:             ["jekyll-sitemap", "jekyll-paginate"]
 incremental:      true
 
 # Serving
-url:            "http://127.0.0.1.xip.io:3000"
-baseurl:        "/boqueteadventures" # does not include hostname
+url:            "http://socama.github.io/"
+baseurl:        "boqueteadventures/" # does not include hostname
 
 # Outputting
 permalink:        "/blog/:year/:title/"
