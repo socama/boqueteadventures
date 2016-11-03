@@ -104,36 +104,28 @@ body{
   background-size: cover;
 }
 nav{
-
   &::before{
     background-color: #8B572A;
     opacity: 0.2;
-
   }
 }
 
-
-
-
-
 #example-menu{
   font-family: 'Farray', sans-serif;
-
   ul li{
-
     a{
-
       color: #8B572A;
       font-size: 0.84em;
       padding-left: 0;
       padding-top: 15px;
       padding-bottom: 18px;
-
     }
   }
 }
 #navitem{
   background-image: url('../img/BOTONMADERA.png');
+  background-size: 163px 45px;
+  margin: 0 10px;
   background-repeat: no-repeat;
 
 }
@@ -196,6 +188,9 @@ nav{
     bottom: 1em;
     left:10px;
     right: 10px;
+    button.is-active{
+      background-color: #FD4D17;
+    }
   }
   }
 }
@@ -240,7 +235,7 @@ nav{
       font-size: 1.2em;
     }
     p{
-      
+
       color: white;
       font-weight: 600;
       line-height: 0.7em;
