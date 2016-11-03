@@ -1,17 +1,13 @@
-
-
 # Site settings
-language:               "ES"
-title:                  "Boquete Adventures Canopy Tours"
-description:            "Los mejores tours de aventura de Panamá"
+language:               ""
+title:                  "Site Title"
+description:            "Site description"
 google-verification:    ""
 
 # Handling Reading
 include:
   - ".htaccess"
   - "_pages"
-  - "/assets/"
-
 
 exclude:
   - "/assets/"
@@ -38,8 +34,8 @@ gems:             ["jekyll-sitemap", "jekyll-paginate"]
 incremental:      true
 
 # Serving
-#url:            "http://socama.github.io/"
-#baseurl:        "/boqueteadventures" # does not include hostname
+# url:            ""
+# baseurl:        "" # does not include hostname
 
 # Outputting
 permalink:        "/blog/:year/:title/"
