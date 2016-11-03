@@ -10,9 +10,10 @@ google-verification:    ""
 include:
   - ".htaccess"
   - "_pages"
+  - "/assets/"
 
 exclude:
-  - "/assets/"
+
   - "bower.json"
   - "composer.json"
   - "composer.lock"
@@ -37,7 +38,7 @@ incremental:      true
 
 # Serving
 url:            "http://socama.github.io/"
-baseurl:        "boqueteadventures/" # does not include hostname
+baseurl:        "boqueteadventures" # does not include hostname
 
 # Outputting
 permalink:        "/blog/:year/:title/"
