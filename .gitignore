@@ -38,7 +38,7 @@ node_modules/**/*
 npm-debug.log
 
 # Jekyll
-_site
+# _site
 .jekyll-metadata
 
 # Vendor directory

@@ -1,7 +1,9 @@
+
+
 # Site settings
-language:               ""
-title:                  "Site Title"
-description:            "Site description"
+language:               "ES"
+title:                  "Boquete Adventures Canopy Tours"
+description:            "Los mejores tours de aventura de Panamá"
 google-verification:    ""
 
 # Handling Reading
@@ -34,8 +36,8 @@ gems:             ["jekyll-sitemap", "jekyll-paginate"]
 incremental:      true
 
 # Serving
-# url:            ""
-# baseurl:        "" # does not include hostname
+url:            "http://127.0.0.1.xip.io:3000"
+baseurl:        "/boqueteadventures" # does not include hostname
 
 # Outputting
 permalink:        "/blog/:year/:title/"

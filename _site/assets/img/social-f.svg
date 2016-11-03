@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>social-f</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="boquete-home" sketch:type="MSArtboardGroup" transform="translate(-1084.000000, -241.000000)">
+            <g id="social-icons" sketch:type="MSLayerGroup" transform="translate(1015.000000, 241.000000)">
+                <g id="social-f" transform="translate(69.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <g id="Facebook">
+                        <g id="Page-1">
+                            <g id="Facebook">
+                                <rect id="Rectangle-115" fill="#FD4D17" x="0" y="0" width="60" height="60" rx="10"></rect>
+                                <path d="M25.1888889,45.0361795 L31.5635556,45.0361795 L31.5635556,27.5266541 L36.3457222,27.5266541 L37.2915,22.0555601 L31.5635556,22.0555601 L31.5635556,18.0910217 C31.5635556,16.8129797 32.3899444,15.4710941 33.571,15.4710941 L36.8263889,15.4710941 L36.8263889,10 L32.8367778,10 L32.8367778,10.0245253 C26.5943333,10.2510926 25.3117778,13.866437 25.2005556,17.6639696 L25.1888889,17.6639696 L25.1888889,22.0555601 L22,22.0555601 L22,27.5266541 L25.1888889,27.5266541 L25.1888889,45.0361795 L25.1888889,45.0361795 Z" id="Fill-4" fill="#5D432B"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
