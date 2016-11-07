@@ -20,7 +20,7 @@ copy:
     - "!assets/{js,scss,css}/**/*"   # js, scss and css files
     - "!assets/css{,/**}"            # css dir
     - "!assets/js{,/**}"             # js dir
-    # - "!assets/scss{,/**}"           # scss dir
+    - "!assets/scss{,/**}"           # scss dir
     - "!assets/vendor{,/**}"         # vendor dir
   dist: "_site/assets/"
   notification: "Running Copy"
