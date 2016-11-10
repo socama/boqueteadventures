@@ -42,7 +42,7 @@
 
 // Open Sans
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-@import url("fonts/farray/farray.otf");
+
 
 //
 // 4. Foundation
@@ -99,6 +99,12 @@
 @import 'themes/theme';
 
 //Custom
+@font-face {
+    font-family: 'Farray';
+    src: url('fonts/farray/farray.otf');
+}
+
+
 body{
   background: url('../img/fondo.png') no-repeat center center fixed;
   -webkit-background-size: cover;
